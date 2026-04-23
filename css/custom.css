@@ -1,3 +1,13 @@
+a[href^="tel"], a[href^="date"] {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
 .the-heart-single-groomsman {
     max-width: 400px !important;
 }
@@ -93,6 +103,12 @@
     transform: translateY(-45%);
 }
 @media (max-width: 767px) {
+      .the-heart-attending-content {
+   
+    width: 100% !important; /* Add this! */
+    left: 0;
+    right: 0;
+  }
     .bride-name{
         margin-top: 40px !important;
     }
@@ -179,6 +195,7 @@
     #our-story .the-heart-spilt-container{
         height: unset !important;
     }
+  
 }
 .arabic{
       direction: rtl;
