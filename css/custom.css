@@ -1,0 +1,208 @@
+.the-heart-single-groomsman {
+    max-width: 400px !important;
+}
+.map-btn, .whish-btn{
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 50px;
+    -webkit-border-radius: 23px / 23px 23px 24px 24px;
+    -moz-border-radius: 23px/23px 23px 24px 24px;
+    border-radius: 23px / 23px 23px 24px 24px;
+    background-color: #fff;
+    color: #96327D !important;
+    font-size: 1.333em;
+    text-align: center;
+    line-height: 50px;
+    text-transform: capitalize;
+    border: 0px solid;
+    font-weight: 400;
+}
+.the-heart-attending-content-inner-top h3 {
+    max-width: 80%;
+    justify-self: center;
+    font-size: 1.5em !important;
+}
+.phrase-gift{
+    color: white;
+    text-align: center;
+    font-family: poppins;
+}
+.arabic{
+    font-size: 1.6em;
+}
+.wish,.wish-div{
+    margin-top: 36px;
+}
+.whish-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    p{
+        color: white;
+        font-size: 1.2em;
+    }
+    
+}
+.whish-logo{
+  
+  max-width: 70px !important;
+
+}
+.whish-btn{
+    margin-top: 30px;
+    
+    font-weight: bold;
+    a{
+        font-size: 1.2em !important;
+    }
+}
+@media (min-width: 1300px) {
+  .the-heart-welcome-section {
+    background-position: center top !important; 
+    background-size: contain !important;
+  }
+}
+@media (min-width: 1500px) {
+  .the-heart-welcome-section {
+    background-image: url(../img/hero-big.jpg) !important;
+  }
+}
+@media (max-width: 478px) {
+    .the-heart-introduction-section {
+     padding-top: 0 !important;
+    }
+    .the-heart-intruduction-content-txt{
+        height: 336px !important;
+    }
+}
+.sep_on_small{
+    display: none !important;
+}
+.menu-lang {
+    display: none;
+    position: absolute;
+   
+    right: 68px;
+    width: 41px;
+    height: 41px;
+  
+    top: 50%;
+    transform: translateY(-45%);
+}
+@media (max-width: 767px) {
+    .bride-name{
+        margin-top: 40px !important;
+    }
+    .menu-lang{
+        display: block !important;
+    }
+    .the-heart-intruduction-content-img img {
+        width: 80% !important;
+        height: 80%;
+    }
+    .the-heart-intruduction-content-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .margin-top-zero-small{
+        margin-top: 0 !important;
+    }
+    .the-heart-section-heading{
+        margin-bottom: 0 !important;
+    }
+    .the-heart-memoragble-days-wraper{
+        margin-bottom: 0 !important;
+      
+    }
+     .the-heart-memoragble-days-content{
+        height: 310px !important;
+     }
+
+
+     .the-heart-memoragble-days-wraper:before{
+        /* transform: translateX(-50%) rotate(90deg) !important;
+        height: 100vw !important;
+        top: 15% !important; */
+        display: none !important;
+     }
+     .sep_on_small{
+    display: block !important;
+}
+.the-heart-spilt-container{
+    height: 380px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+.the-heart-memoragble-days-img{
+        height: 90% !important ;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}   
+.the-heart-memoragble-days-img img{
+    height: 100% !important;
+    width: 100% !important;
+}
+.the-heart-intruduction-content-txt{
+    display: flex !important   ;
+    justify-content: center !important;
+    align-items: center !important ;
+    flex-direction: column !important   ;
+}
+
+    .the-heart-intruduction-content-txt h3 {
+        font-size: 2.1em !important;
+    
+}
+ .the-heart-intruduction-content-txt h4{
+           font-size: 1.4em !important;
+    margin-top: 10px !important;
+    
+}
+.the-heart-intruduction-content-txt p {
+        font-size: 1em !important;
+    }
+        .the-heart-intruduction-content-img img {
+     
+        height: unset !important;
+    }
+   .the-heart-memoragble-days-section .the-heart-spilt-container{
+    height: unset !important;
+    }
+    #our-story .the-heart-spilt-container{
+        height: unset !important;
+    }
+}
+.arabic{
+      direction: rtl;
+}
+
+@media (max-width: 767px) {
+    .the-heart-intruduction-content-txt p.arabic {
+        font-size: 1.1em !important;
+    }
+    .the-heart-memoragble-days-content p.arabic {
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
+
+.arabic-phrase{
+    direction: rtl !important;
+    font-weight: bold !important ;
+    font-size: 1em !important;
+}
+@media (min-width: 870px) {
+    .the-heart-memoragble-days-wraper {
+        margin-bottom: 0 !important;
+    }
+   
+    
+}
