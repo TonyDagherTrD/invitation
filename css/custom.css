@@ -265,4 +265,12 @@ body {
      width: 165px !important;
      left: -30px !important;
    }
+   .phrase-gift{
+    font-size: 1.3em !important;
+
+   }
+   .whish-btn{
+    font-size: 0.9em !important;
+   }
+   
 }
