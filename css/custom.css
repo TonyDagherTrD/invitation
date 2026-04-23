@@ -261,4 +261,8 @@ body {
    .the-heart-floral-txt:after{
     bottom: 43px !important;
    }
+   .the-heart-floral-txt:before, .the-heart-floral-txt:after{
+     width: 165px !important;
+     left: -30px !important;
+   }
 }
