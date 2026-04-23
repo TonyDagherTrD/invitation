@@ -248,4 +248,17 @@ body {
     .the-heart-you-are-attending-section {
         overflow-x: hidden;
     }
+    .the-heart-you-are-attending-section h3{
+        max-width: 100% !important;
+    }
+   .the-heart-attending-content-inner-top{
+    display: flex !important;
+   
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+   }
+   .the-heart-floral-txt:after{
+    bottom: 43px !important;
+   }
 }
