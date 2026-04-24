@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const isIphone = /iPhone/.test(navigator.userAgent) && !window.MSStream;
+  const isIphone = /iPhone/.test(navigator.userAgent);
 //iphone fix for background-attachment: fixed; issue
     if (isIphone) {
         // Change 'my-element' to the ID of the HTML item you want to target
