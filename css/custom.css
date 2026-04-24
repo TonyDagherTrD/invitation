@@ -272,5 +272,8 @@ body {
    .whish-btn{
     font-size: 0.9em !important;
    }
+   .iphone-only-style{
+    background-attachment: unset !important;
+   }
    
 }
