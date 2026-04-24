@@ -1,15 +1,26 @@
 document.addEventListener("DOMContentLoaded", function () {
   const isIphone = /iPhone/.test(navigator.userAgent);
 //iphone fix for background-attachment: fixed; issue
-    if (isIphone) {
-        // Change 'my-element' to the ID of the HTML item you want to target
-        const myElement = document.querySelector('.the-heart-welcome-section'); 
+  const myElement = document.querySelector('.the-heart-welcome-section'); 
         const footerEl = document.querySelector('.the-heart-footer-section');
+console.log(isIphone);
+    if (isIphone) {      
+        // Change 'my-element' to the ID of the HTML item you want to target
+      
         if (myElement) {
+            myElement.classList.remove('jarallax');
             myElement.classList.add('iphone-only-style');
         }
         if (footerEl) {
+            footerEl.classList.remove('jarallax');
             footerEl.classList.add('iphone-only-style');
+        }
+    }else{
+        if (myElement) {
+            myElement.classList.add('jarallax');
+        }
+        if (footerEl) {
+            footerEl.classList.add('jarallax');
         }
     }
 
