@@ -363,3 +363,6 @@ body {
 .fade-out{
     display: none !important;
 }
+.copy-btn{
+    cursor: pointer;
+}

@@ -1,3 +1,5 @@
+const copyTextBtn = document.querySelectorAll(".copy-btn");
+
 document.addEventListener("DOMContentLoaded", function () {
   iphoneOnlyStyle();
   const langButton = document.querySelector("#switchLangLink");
@@ -116,3 +118,25 @@ const iphoneOnlyStyle = function () {
     }
   }
 };
+
+copyTextBtn.forEach((btn) => {
+  btn.addEventListener("click", function (event) {
+    event.preventDefault();
+    copyText(event);
+  });
+});
+
+function copyText(event) {
+  event.preventDefault(); // prevent link jump
+
+  const text = document.getElementById("whish-id").innerText;
+
+  navigator.clipboard
+    .writeText(text)
+    .then(() => {
+      alert("Copied to clipboard: " + text);
+    })
+    .catch((err) => {
+      console.error("Failed to copy: ", err);
+    });
+}
